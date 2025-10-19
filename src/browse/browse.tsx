@@ -14,22 +14,22 @@ const Browse: React.FC = () => {
     {
       name: "recruiter",
       image: blueImage,
-      backgroundGif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZ5eWwwbjRpdWM1amxyd3VueHhteTVzajVjeGZtZGJ1dDc4MXMyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/16u7Ifl2T4zYfQ932F/giphy.gif" // Dark storm clouds
+      backgroundGif: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzNrZnRsNnlrNmlxd2d0ejc3NzN0djMzNzBzcTB5bjV5Y3pnaW40ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z1wBFKTXrQlpK/giphy.gif" // not sure
     },
     {
       name: "developer",
       image: greyImage,
-      backgroundGif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGNidDl5emZpejY2eGFxa2I4NW0zZGNpbWRlbnBrZ3N2dWhhbzM1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TFPdmm3rdzeZ0kP3zG/giphy.gif" // Flickering neon lights
+      backgroundGif: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2NteGx2bGVjYjlhOHg0dDNpd3RhdGRlaHRqejkzMHRsMDQ5cDcycCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoD6JZnwap6s8/giphy.gif" // Stock Market
     },
     {
       name: "stalker",
       image: redImage,
-      backgroundGif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc28yMjMyZmJ6eWtxbmNwdDV6cXk4dWZmcjFhZms2cXBjN2h5ZDJjeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QjZXUBUr89CkiWLPjL/giphy.gif" // Dark, abstract digital lights
+      backgroundGif: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2JldnZkZzZ4MzBpbW5idTMya3MxcHMwYzFrZDVjcHN4bHoyZzh0aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q5vOrjC34tp0rl1Ini/giphy.gif" // You Stalker
     },
     {
       name: "adventurer",
       image: yellowImage,
-      backgroundGif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmxib24ycWo2cjlmazh0NGV5NTZ2Mzd2YWY0M2tvam9oYXBwYW1ocCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ERKMnDK6tkzJe8YVa3/giphy-downsized-large.gif" // Dark ocean waves at night
+      backgroundGif: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDltY3F2YnhndGh5dnBjMmRpczMweGFmMTJ0c3l3NzlkZTFyNnRkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cEYFeE4wJ6jdDVBiiIM/giphy.gif" // Astronaught, Space
     },
   ];
 

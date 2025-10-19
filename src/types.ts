@@ -1,11 +1,8 @@
 // types.ts
 
 export interface ProfileBanner {
-  backgroundImage: { url: string };
   headline: string;
-  resumeLink: {
-    url: string;
-  };
+  resumeLink: string;
   linkedinLink: string;
   profileSummary: string;
 }

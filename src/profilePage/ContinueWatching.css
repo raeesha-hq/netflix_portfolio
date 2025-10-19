@@ -1,6 +1,7 @@
 .continue-watching-row {
   padding: 20px;
   color: #fff;
+  margin-top: -20px; /* Adjust this value to move the section up */
 }
 
 .continue-watching-row:hover {

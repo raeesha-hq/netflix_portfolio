@@ -1,9 +1,10 @@
 .top-picks-row {
-  margin: 20px 0;
+  margin: 0;
   padding: 10px 20px
 }
 
 .row-title {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 2rem;
   color: #fff;
   margin-bottom: 20px;
@@ -64,6 +65,7 @@
 
 .pick-label {
   color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);

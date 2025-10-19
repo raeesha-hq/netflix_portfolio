@@ -1,0 +1,55 @@
+.about-me-container {
+  padding: 100px 20px;
+  color: #fff;
+  min-height: 60vh;
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.about-me-container h1 {
+  font-size: 2.5rem; /* Bigger font for the headline */
+  margin-bottom: 20px;
+}
+
+.about-me-container p {
+  font-size: 1.2rem; /* Bigger font for paragraphs */
+  line-height: 1.6; /* Improve readability with more line height */
+  margin-bottom: 15px; /* Space between paragraphs */
+  max-width: 800px; /* Optional: control line length for readability */
+}
+
+.about-me-box {
+  background-color: rgba(30, 30, 30, 0.9);
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
+  max-width: 900px;
+  margin: 20px auto; /* This will center the box horizontally */
+  opacity: 0; /* Start invisible for animation */
+  transform: translateY(20px); /* Start slightly below for slide-in */
+  animation: fadeIn 1s ease forwards, slideIn 0.8s ease forwards; /* Apply animations */
+}
+
+.about-me-box:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4); /* Netflix red glow on hover */
+}
+
+.about-me-box h1,
+.about-me-box p {
+  text-align: center;
+}
+
+/* Animations (if not already defined globally or in a shared CSS) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+} 

@@ -14,12 +14,14 @@ import Music from './pages/Music';
 import Reading from './pages/Reading';
 import Blogs from './pages/Blogs';
 import Certifications from './pages/Certifications';
+import AboutMe from './pages/AboutMe';
 
 const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<NetflixTitle />} />
       <Route path="/browse" element={<Browse />} />
+      <Route path="/about-me" element={<Layout><AboutMe /></Layout>} />
       <Route path="/profile/:profileName" element={<Layout><ProfilePage /></Layout>} />
       <Route path="/work-permit" element={<Layout><WorkPermit /></Layout>} />
       <Route path="/work-experience" element={<Layout><WorkExperience /></Layout>} />
